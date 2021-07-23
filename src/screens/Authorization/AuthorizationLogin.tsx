@@ -5,7 +5,7 @@ import React, {FC, ReactElement} from 'react';
 // const useStyles = makeStyles((theme: Theme) => createStyles({}));
 
 const AuthorizationLogin: FC = (): ReactElement => {
-  // const useStyles = useStyles();
+  // const classes = useStyles();
 
   return (
     <section>

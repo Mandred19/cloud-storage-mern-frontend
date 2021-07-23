@@ -11,7 +11,7 @@ const muiDialogs = {
   },
   MuiDialogTitle: {
     root: {
-      borderBottom: '1px solid #0D0C0E',
+      borderBottom: '1px solid #4B0070',
       marginBottom: 10,
       padding: '10px 15px',
       '& h2': {

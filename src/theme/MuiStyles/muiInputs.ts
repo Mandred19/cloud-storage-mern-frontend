@@ -5,7 +5,7 @@ const muiInputs = {
         borderBottomWidth: '2px',
       },
       '&:before': {
-        borderColor: '#0D0C0E',
+        borderColor: '#4B0070',
         borderBottomWidth: '2px',
       },
     },

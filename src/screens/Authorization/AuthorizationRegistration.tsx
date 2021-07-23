@@ -1,11 +1,11 @@
 import React, {FC, ReactElement} from 'react';
 
 // import {createStyles, makeStyles, Theme} from '@material-ui/core';
-
+//
 // const useStyles = makeStyles((theme: Theme) => createStyles({}));
 
 const AuthorizationRegistration: FC = (): ReactElement => {
-  // const useStyles = useStyles();
+  // const classes = useStyles();
 
   return (
     <section>

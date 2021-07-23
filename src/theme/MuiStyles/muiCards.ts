@@ -4,7 +4,7 @@ const muiCards = {
       paddingBottom: 8,
     },
     title: {
-      color: '#0D0C0E',
+      color: '#4B0070',
       fontWeight: 700,
       fontSize: 18,
     },

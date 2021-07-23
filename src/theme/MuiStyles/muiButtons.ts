@@ -12,7 +12,7 @@ const muiButtons = {
       paddingRight: 20,
     },
     outlinedPrimary: {
-      borderColor: '#009999',
+      borderColor: '#D3A4F0',
     },
   },
 };
