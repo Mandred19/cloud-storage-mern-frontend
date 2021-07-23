@@ -1,21 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import { Provider } from 'react-redux';
 import './index.css';
+import 'fontsource-roboto';
+import {CssBaseline, ThemeProvider} from '@material-ui/core';
 
 import App from './App';
 
+import theme from './theme';
 import { store } from './store';
-
-import { Provider } from 'react-redux';
 
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <App />
-    </Provider>
+    <ThemeProvider theme={theme}>
+      <CssBaseline>
+        <Provider store={store}>
+          <App />
+        </Provider>
+      </CssBaseline>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
